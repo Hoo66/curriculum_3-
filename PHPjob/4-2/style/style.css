@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  width: 200px;
+  height: 120px;
+  background-color: #add8e6;
+}
+header img {
+  width: 100%;
+}
+
+header div p {
+  width: calc(1000px - 200px);
+  text-align: right;
+  margin: 0;
+  height: 60px;
+  line-height: 60px;
+}
+
+.login-name {
+  background-color: #87ceeb;
+}
+
+.login-date {
+  background-color: #00ffff;
+}
+
+table {
+  width: 800px;
+  margin: 10px auto;
+  border: 1px solid #fff;
+}
+
+table thead {
+  background-color: #87ceeb;
+}
+
+table tbody {
+  background-color: #e0ffff;
+}
+
+footer {
+  background-color: #00ced1;
+  width: 1000px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
