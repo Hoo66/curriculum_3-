@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+body {
+  text-decoration: none;
+  padding-top: 40px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+button, a:hover, input[type="submit"] {
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 4px 10px;
+  margin-top: 20px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+select {
+  width: fit-content;
+  height: 40px;
+  padding: 4px 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+input[type="submit"], .books-inventory button {
+  width: fit-content;
+  min-width: 100px;
+  height: 40px;
+  padding: 4px 10px;
+  background-color: rgb(60, 154, 243);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+
+.sign-up, .login, .add-book {
+  width: 90%;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login button {
+  height: 60px;
+  padding: 10px;
+  background-color: rgb(47, 169, 194);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.books-inventory {
+  width: 96%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.books-inventory button {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.books-inventory .logout-button {
+  background-color: #777;
+}
+
+.books-inventory table {
+  margin-top: 20px;
+  text-align: center;
+  width: fit-content;
+  border: 1px solid #ccc;
+}
+
+.books-inventory table th, .books-inventory table td {
+  border: 1px solid #ccc;
+
+}
+
+.books-inventory table th {
+  background-color: #eee;
+  width: fit-content;
+  height: 48px;
+  padding: 10px 40px;
+}
+
+.books-inventory table td {
+  height: 60px;
+  padding: 10px 40px;
+}
+
+.books-inventory table td a {
+  height: 60px;
+  padding: 10px;
+  background-color: rgb(198, 55, 55);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-book label {
+  display: block;
+  margin-top: 20px;
+}
+
+.links a {
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
